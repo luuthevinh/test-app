@@ -94,7 +94,11 @@
                     cc.view.enableRetina(true);
                 }
                 if (cc.sys.isBrowser) {
-                    setLoadingDisplay();
+                    // setLoadingDisplay();
+                    
+                    cc.director.once(cc.Director.EVENT_AFTER_SCENE_LAUNCH, function () {
+                        splash.style.display = 'none';
+                    });
                 }
 
                 if (cc.sys.isMobile) {
