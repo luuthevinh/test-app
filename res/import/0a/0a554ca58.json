@@ -231,6 +231,9 @@
         },
         {
           "__id__": 68
+        },
+        {
+          "__id__": 72
         }
       ],
       "_components": [
@@ -498,6 +501,9 @@
           },
           "resultLayer": {
             "__id__": 67
+          },
+          "loading": {
+            "__id__": 72
           }
         }
       ],
@@ -2032,9 +2038,6 @@
         },
         {
           "__id__": 71
-        },
-        {
-          "__id__": 72
         }
       ],
       "_active": false,
@@ -2262,7 +2265,7 @@
       "__type__": "cc.Node",
       "_name": "Loading",
       "_parent": {
-        "__id__": 68
+        "__id__": 2
       },
       "_children": [
         {
@@ -2272,6 +2275,7 @@
           "__id__": 74
         }
       ],
+      "_active": false,
       "_components": [
         {
           "__type__": "cc.Widget",
